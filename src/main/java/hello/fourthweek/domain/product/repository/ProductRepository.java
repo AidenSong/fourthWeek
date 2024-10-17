@@ -16,6 +16,4 @@ public interface ProductRepository {
 
     ProductStockInfoDomainResponse updateProductQuantity(UpdateProductQuantityInfraEntity updateProductQuantityInfraEntity);
 
-    AddToCartDomainResponse addToShoppingCart(AddToCartInfraEntity addToCartInfraEntity);
-
 }
