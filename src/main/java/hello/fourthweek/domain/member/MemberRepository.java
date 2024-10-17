@@ -1,7 +1,7 @@
-package hello.fourthweek.domain;
+package hello.fourthweek.domain.member;
 
 
-import hello.fourthweek.domain.record.response.*;
+import hello.fourthweek.domain.member.record.response.*;
 import hello.fourthweek.infra.member.entity.*;
 
 public interface MemberRepository {

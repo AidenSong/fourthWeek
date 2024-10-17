@@ -1,9 +1,9 @@
-package hello.fourthweek.domain;
+package hello.fourthweek.domain.member;
 
 
-import hello.fourthweek.domain.record.request.*;
-import hello.fourthweek.domain.record.response.*;
-import hello.fourthweek.interfaces.record.response.*;
+import hello.fourthweek.domain.member.record.request.*;
+import hello.fourthweek.domain.member.record.response.*;
+import hello.fourthweek.interfaces.member.record.response.*;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

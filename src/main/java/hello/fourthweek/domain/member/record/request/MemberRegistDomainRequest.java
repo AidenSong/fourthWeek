@@ -1,4 +1,4 @@
-package hello.fourthweek.domain.record.request;
+package hello.fourthweek.domain.member.record.request;
 
 import hello.fourthweek.infra.member.entity.MemberRegistEntity;
 

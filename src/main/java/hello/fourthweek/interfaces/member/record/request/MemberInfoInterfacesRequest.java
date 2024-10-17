@@ -1,6 +1,6 @@
-package hello.fourthweek.interfaces.record.request;
+package hello.fourthweek.interfaces.member.record.request;
 
-import hello.fourthweek.domain.record.request.MemberInfoDomainRequest;
+import hello.fourthweek.domain.member.record.request.MemberInfoDomainRequest;
 
 public record MemberInfoInterfacesRequest(long memberId) {
 

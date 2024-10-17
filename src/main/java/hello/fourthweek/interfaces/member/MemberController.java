@@ -1,9 +1,9 @@
-package hello.fourthweek.interfaces.controller;
+package hello.fourthweek.interfaces.member;
 
 
-import hello.fourthweek.domain.MemberService;
-import hello.fourthweek.interfaces.record.request.*;
-import hello.fourthweek.interfaces.record.response.*;
+import hello.fourthweek.domain.member.MemberService;
+import hello.fourthweek.interfaces.member.record.request.*;
+import hello.fourthweek.interfaces.member.record.response.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
