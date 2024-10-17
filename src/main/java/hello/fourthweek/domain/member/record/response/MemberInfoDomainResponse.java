@@ -1,6 +1,6 @@
-package hello.fourthweek.domain.record.response;
+package hello.fourthweek.domain.member.record.response;
 
-import hello.fourthweek.interfaces.record.response.MemberInfoInterfacesResponse;
+import hello.fourthweek.interfaces.member.record.response.MemberInfoInterfacesResponse;
 
 public record MemberInfoDomainResponse(long memberId, int memberBalance) {
 

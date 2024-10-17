@@ -1,7 +1,7 @@
 package hello.fourthweek.infra.member;
 
-import hello.fourthweek.domain.MemberRepository;
-import hello.fourthweek.domain.record.response.*;
+import hello.fourthweek.domain.member.MemberRepository;
+import hello.fourthweek.domain.member.record.response.*;
 import hello.fourthweek.infra.member.entity.*;
 import hello.fourthweek.infra.member.jparepository.*;
 import lombok.RequiredArgsConstructor;
@@ -12,7 +12,6 @@ import java.util.Optional;
 
 @Repository
 @RequiredArgsConstructor
-
 public class MemberRepositoryImpl implements MemberRepository {
 
 

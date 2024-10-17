@@ -1,4 +1,4 @@
-package hello.fourthweek.interfaces.record.response;
+package hello.fourthweek.interfaces.member.record.response;
 
 public record MemberRegistInterfacesResponse(long memberId, int memberBalance) {
 }

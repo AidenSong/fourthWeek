@@ -1,7 +1,7 @@
-package hello.fourthweek.interfaces.record.request;
+package hello.fourthweek.interfaces.member.record.request;
 
 
-import hello.fourthweek.domain.record.request.MemberRegistDomainRequest;
+import hello.fourthweek.domain.member.record.request.MemberRegistDomainRequest;
 
 public record MemberRegistInterfacesRequest(long memberId, int memberBalance) {
 
