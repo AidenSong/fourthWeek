@@ -47,4 +47,10 @@ public class MemberController {
     public UpdateBalanceInterfacesResponse updateBalance(@RequestBody UpdateBalanceInterfacesRequest updateBalanceInterfacesRequest) {
         return memberService.updateBalance(updateBalanceInterfacesRequest.toDomain());
     }
+
+    // 회원 히스토리 추가
+    @PostMapping("/addMemberHistory")
+    public boolean addMemberHistory(@RequestBody AddMemberHistoryInterfacesRequest addMemberHistoryInterfacesRequest) {
+        return memberService.addMemberHistory(addMemberHistoryInterfacesRequest.toDomain());
+    }
 }

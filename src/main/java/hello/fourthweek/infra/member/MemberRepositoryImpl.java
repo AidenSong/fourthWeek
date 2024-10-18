@@ -1,7 +1,7 @@
 package hello.fourthweek.infra.member;
 
-import hello.fourthweek.domain.MemberRepository;
-import hello.fourthweek.domain.record.response.*;
+import hello.fourthweek.domain.member.MemberRepository;
+import hello.fourthweek.domain.member.record.response.*;
 import hello.fourthweek.infra.member.entity.*;
 import hello.fourthweek.infra.member.jparepository.*;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +21,7 @@ public class MemberRepositoryImpl implements MemberRepository {
     private final GetBalanceJpaRepository getBalanceJpaRepository;
     private final AddFundsJpaRepository addFundsJpaRepository;
     private final UpdateBalanceJpaRepository updateBalanceJpaRepository;
+    private final AddMemberHistoryJpaRepository addMemberHistoryJpaRepository;
 
 
     @Override
@@ -58,5 +59,10 @@ public class MemberRepositoryImpl implements MemberRepository {
     public UpdateBalanceDomainResponse updateBalance(UpdateBalanceEntity updateBalanceEntity) {
         UpdateBalanceEntity response = updateBalanceJpaRepository.updateBalance(updateBalanceEntity.getMemberId(), updateBalanceEntity.getAmount());
         return response.toDomain();
+    }
+
+    @Override
+    public void addMemberHistory(AddMemberHistoryInfraEntity addMemberHistoryInfraEntity) {
+        addMemberHistoryJpaRepository.save(addMemberHistoryInfraEntity);
     }
 }

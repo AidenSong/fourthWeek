@@ -17,5 +17,6 @@ public interface MemberRepository {
 
     UpdateBalanceDomainResponse updateBalance(UpdateBalanceEntity updateBalanceEntity);
 
+    void addMemberHistory(AddMemberHistoryInfraEntity addMemberHistoryInfraEntity);
 
 }
