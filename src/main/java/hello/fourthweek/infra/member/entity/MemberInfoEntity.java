@@ -1,7 +1,7 @@
 package hello.fourthweek.infra.member.entity;
 
 
-import hello.fourthweek.domain.record.response.MemberInfoDomainResponse;
+import hello.fourthweek.domain.member.record.response.MemberInfoDomainResponse;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
